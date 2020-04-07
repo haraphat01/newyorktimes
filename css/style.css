@@ -103,7 +103,7 @@ float: right;
 
 .article-icon{
 	border-radius: 50%;
-	border: 5px solid #000000;
+	
 	size: 196rem;
 		
 }
@@ -129,6 +129,8 @@ float: right;
 color: black;
 }
 
+
+
 .article-icon-color{
 color: white;
 text-shadow: 0 0 2px black;
@@ -136,3 +138,14 @@ text-shadow: 0 0 2px black;
 
 }
 
+.article-info a:nth-child(-n+4) {
+	background-color: #EEEEEE;
+	border-radius: 200px 200px 200px 200px;
+	padding: 5px;
+  }
+  .article-info a:hover{
+	color: black;
+	background-color: white;
+	border: 1px solid #EEEEEE;
+	
+	}
