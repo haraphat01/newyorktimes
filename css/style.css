@@ -82,3 +82,57 @@ nav button {
 #hero p {
 	line-height: 1.3;
 }
+ article{
+ max-width: 600px;
+ margin-left: auto;
+ margin-right: auto;
+ height: 100rem;
+ 
+ margin-left: 23rem;
+ 
+
+ }
+
+
+ 
+/* begining of the article section  */
+
+.article-info{
+float: right;
+}
+
+.article-icon{
+	border-radius: 50%;
+	border: 5px solid #000000;
+	size: 196rem;
+		
+}
+
+.fa-comment{
+	
+	position: relative;
+	height: 30px;
+	width: 30px;
+	
+}
+
+.article-info span{
+	position: absolute;
+	color: black;
+    overflow:hidden;
+	top: 10px;
+	left: 9px;
+	font-size: x-small;
+}	
+
+.article-info a{
+color: black;
+}
+
+.article-icon-color{
+color: white;
+text-shadow: 0 0 2px black;
+
+
+}
+
