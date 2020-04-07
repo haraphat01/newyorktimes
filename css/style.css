@@ -241,6 +241,46 @@ figure {
 	width: 200px;
 	height: 30px;
 }
+
+.fig-4 {
+	position: absolute;
+	left: 720px;
+	top: 140px;
+	width: 200px;
+	height: 30px;
+}
+
+.fig-5 {
+	position: absolute;
+	right: 760px;
+	bottom: 140px;
+	width: 200px;
+	height: 30px;
+}
+
+.fig-6 {
+	position: absolute;
+	right: 550px;
+	bottom: 140px;
+	width: 200px;
+	height: 30px;
+}
+
+.fig-7 {
+	position: absolute;
+	right: 290px;
+	bottom: 140px;
+	width: 200px;
+	height: 30px;
+}
+
+.fig-8 {
+	position: absolute;
+	right: 40px;
+	bottom: 140px;
+	width: 200px;
+	height: 30px;
+}
 .inflation-article span {
 	font-weight: bold;
 	color: #000000;
