@@ -124,10 +124,10 @@ article {
 } */
 
 .article-info {
-	float: right;
+	
 }
 .date {
-	float: left;
+	
 	margin-top: 12px;
 	font-family: nyt-franklin, helvetica, arial, sans-serif;
 	font-weight: 500;
@@ -183,6 +183,7 @@ article {
 	line-height: 1.875rem;
 	margin-bottom: 0.9375rem;
 	font-family: nyt-imperial, georgia, "times new roman", times, serif;
+	margin-top: 60px;
 }
 .articles a {
 	color: rgb(50, 127, 189);
@@ -203,3 +204,20 @@ article {
 .free-articles a {
 	text-decoration: none;
 }
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 15rem 15rem 15rem 15rem;
+  grid-template-rows:15rem 15rem 15rem 15rem;
+  padding: 10px;
+  
+}
+
+.grid-item{
+	 background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	font-size: 30px; 
+	
+}   
