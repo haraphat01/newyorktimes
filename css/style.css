@@ -1,7 +1,9 @@
 /* General styles */
 .text-mute {
   color: #888;
+
 }
+
 .clearfix:after {
   content: ".";
   visibility: hidden;
@@ -305,3 +307,28 @@ figure {
 	font-family: nyt-imperial, georgia, "times new roman", times, serif;
 	margin-top: 60px;
   }
+  .article-footer{
+	color: rgb(102,102,102);
+	font-size: 12px;
+	line-height: 1.4;
+
+  }
+
+  .article-footer a{
+	  color:rgb(102,102,102) ;
+  }
+
+  .article-footer-icon{
+	  display: flex;
+	  justify-content: space-between;
+	  margin-top: 30px;
+	  
+  }
+  .article-footer-icon button{
+	  
+  }
+
+  .article-footer-icon div{
+	
+  }
+
