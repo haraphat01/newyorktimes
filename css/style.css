@@ -283,5 +283,25 @@ figure {
 }
 .inflation-article span {
   font-weight: bold;
-  color: #000000;
+  color: #5a5757;
 }
+
+.inflation-article div hr {
+  margin: 0px;
+  margin-top: 50px;
+  width: 100px;
+  border: 0.5px solid black;
+}
+
+.inflation-article div p {
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.articles {
+	font-size: 1.26rem;
+	line-height: 1.875rem;
+	margin-bottom: 0.9375rem;
+	font-family: nyt-imperial, georgia, "times new roman", times, serif;
+	margin-top: 60px;
+  }
