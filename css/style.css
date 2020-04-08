@@ -1,303 +1,303 @@
 /* General styles */
 .text-mute {
-  color: #888;
-
+	color: #888;
 }
 
 .clearfix:after {
-  content: ".";
-  visibility: hidden;
-  display: block;
-  height: 0;
-  clear: both;
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
 }
 /*End General styles */
 .main-container {
-  width: 100%;
-  height: 100%;
-  background-color: rgb(255, 255, 255);
-  color: black;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(255, 255, 255);
+	color: black;
 }
 
 /* Navbar */
 
 nav {
-  display: flex;
-  height: 50px;
-  width: 100%;
-  font-size: small;
-  border: 2px solid yellow;
-  font-family: helvetica, arial, sans-serif;
-  box-sizing: border-box;
+	display: flex;
+	height: 50px;
+	width: 100%;
+	font-size: small;
+	border: 2px solid yellow;
+	font-family: helvetica, arial, sans-serif;
+	box-sizing: border-box;
 }
 
 nav button {
-  margin: 0.9em;
-  border: none;
-  background-color: rgb(255, 255, 255);
-  font-weight: bold;
-  font-size: 14.25px;
+	margin: 0.9em;
+	border: none;
+	background-color: rgb(255, 255, 255);
+	font-weight: bold;
+	font-size: 14.25px;
 }
 
 #login-button {
-  background-color: rgb(86, 123, 149);
-  color: white;
-  padding: 1%;
-  border-radius: 10%;
-  height: 30px;
-  padding-top: 10px;
-  font-size: 10px;
-  margin-left: 10px;
+	background-color: rgb(86, 123, 149);
+	color: white;
+	padding: 1%;
+	border-radius: 10%;
+	height: 30px;
+	padding-top: 10px;
+	font-size: 10px;
+	margin-left: 10px;
 }
 
 #subscribe-button {
-  background-color: rgb(86, 123, 149);
-  color: white;
-  padding: 1%;
-  border-radius: 10%;
-  margin-left: 400px;
-  height: 30px;
-  padding-top: 10px;
-  font-size: 10px;
+	background-color: rgb(86, 123, 149);
+	color: white;
+	padding: 1%;
+	border-radius: 10%;
+	margin-left: 400px;
+	height: 30px;
+	padding-top: 10px;
+	font-size: 10px;
 }
 
 .logo {
-  margin-left: 300px;
-  margin-top: 5px;
+	margin-left: 300px;
+	margin-top: 5px;
 }
 
 /* End of Navbar */
 #hero {
-  width: 960px;
-  margin: 20px auto;
+	width: 960px;
+	margin: 20px auto;
 }
 
 #hero h1 {
-  color: #121212;
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  font-weight: 700;
-  font-style: italic;
-  font-size: 2.5rem;
-  line-height: 3rem;
-  text-align: justify;
+	color: #121212;
+	font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 2.5rem;
+	line-height: 3rem;
+	text-align: justify;
 
-  margin: 0 100px 12px 150px;
+	margin: 0 100px 12px 150px;
 }
 #hero img {
-  width: 100%;
-  margin-bottom: 10px;
+	width: 100%;
+	margin-bottom: 10px;
 }
 
 #hero p {
-  line-height: 1.3;
-  margin-right: 7px;
-  color: #666;
-  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+	line-height: 1.3;
+	margin-right: 7px;
+	color: #666;
+	font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
 #hero span {
-  text-size-adjust: 100%;
-  font-size: 13px;
-  vertical-align: baseline;
-}
-article {
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  /* height: 100rem; */
-
-  margin-left: 23rem;
+	text-size-adjust: 100%;
+	font-size: 13px;
+	vertical-align: baseline;
 }
 
 /* begining of the article section  */
+article {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+
+	/* margin-left: 23rem; */
+}
+
 .author a {
-  color: #333;
-  text-decoration: none;
-  cursor: pointer;
+	color: #333;
+	text-decoration: none;
+	cursor: pointer;
 }
 .underline {
-  width: 102px;
-  height: 0.5px;
-  color: black;
-  border: 0.2px solid #dddddd;
-  margin-left: 25px;
+	width: 102px;
+	height: 0.5px;
+	color: black;
+	border: 0.2px solid #dddddd;
+	margin-left: 25px;
 }
 /* article a + div:hover {
 	visibility: hidden;
 } */
 
 .article-info {
-  float: right;
+	float: right;
 }
 .date {
-  float: left;
-  margin-top: 12px;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-weight: 500;
-  color: #333;
-  margin-bottom: 1rem;
-  font-size: 0.8125rem;
-  line-height: 1rem;
-  margin-bottom: 0;
+	float: left;
+	margin-top: 12px;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	font-weight: 500;
+	color: #333;
+	margin-bottom: 1rem;
+	font-size: 0.8125rem;
+	line-height: 1rem;
+	margin-bottom: 0;
 }
 
 .article-icon {
-  border-radius: 50%;
+	border-radius: 50%;
 
-  size: 196rem;
+	size: 196rem;
 }
 
 .fa-comment {
-  position: relative;
-  height: 30px;
-  width: 30px;
+	position: relative;
+	height: 30px;
+	width: 30px;
 }
 
 .article-info span {
-  position: absolute;
-  color: black;
-  overflow: hidden;
-  top: 10px;
-  left: 9px;
-  font-size: x-small;
+	position: absolute;
+	color: black;
+	overflow: hidden;
+	top: 10px;
+	left: 9px;
+	font-size: x-small;
 }
 
 .article-info a {
-  color: black;
+	color: black;
 }
 
 .article-icon-color {
-  color: white;
-  text-shadow: 0 0 2px black;
+	color: white;
+	text-shadow: 0 0 2px black;
 }
 
 .article-info a:nth-child(-n + 4) {
-  background-color: #eeeeee;
-  border-radius: 200px 200px 200px 200px;
-  padding: 5px;
+	background-color: #eeeeee;
+	border-radius: 200px 200px 200px 200px;
+	padding: 3px;
 }
 .article-info a:hover {
-  color: black;
-  background-color: white;
-  border: 1px solid #eeeeee;
+	color: black;
+	background-color: white;
+	border: 1px solid #eeeeee;
 }
 .articles {
-  font-size: 1.26rem;
-  line-height: 1.875rem;
-  margin-bottom: 0.9375rem;
-  font-family: nyt-imperial, georgia, "times new roman", times, serif;
-  margin-top: 60px;
+	font-size: 1.26rem;
+	line-height: 1.875rem;
+	margin-bottom: 0.9375rem;
+	font-family: nyt-imperial, georgia, "times new roman", times, serif;
+	margin-top: 60px;
 }
 .articles a {
-  color: rgb(50, 127, 189);
+	color: rgb(50, 127, 189);
 }
 .articles a:hover {
-  text-decoration: none;
+	text-decoration: none;
 }
 .articles .free-articles {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-  font-size: 15px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
 }
 .free-articles .underline {
-  margin: 20px auto;
+	margin: 20px auto;
 }
 .free-articles a {
-  text-decoration: none;
+	text-decoration: none;
 }
 .inflation-article {
-  width: 960px;
-  margin: 20px auto;
+	width: 960px;
+	margin: 20px auto;
 }
 
 .inflation-img img {
-  width: 940px;
+	width: 940px;
 }
 figure {
-  position: relative;
-  font-family: nyt-franklin, arial, helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 17px;
-  font-weight: 300;
-  color: #000000;
+	position: relative;
+	font-family: nyt-franklin, arial, helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: 300;
+	color: #000000;
 }
 .fig-1 {
-  position: absolute;
-  left: 3px;
-  top: 140px;
-  width: 200px;
-  height: 30px;
+	position: absolute;
+	left: 3px;
+	top: 140px;
+	width: 200px;
+	height: 30px;
 }
 .fig-2 {
-  position: absolute;
-  left: 220px;
-  top: 140px;
-  width: 200px;
-  height: 30px;
+	position: absolute;
+	left: 220px;
+	top: 140px;
+	width: 200px;
+	height: 30px;
 }
 .fig-3 {
-  position: absolute;
-  left: 470px;
-  top: 140px;
-  width: 200px;
-  height: 30px;
+	position: absolute;
+	left: 470px;
+	top: 140px;
+	width: 200px;
+	height: 30px;
 }
 
 .fig-4 {
-  position: absolute;
-  left: 720px;
-  top: 140px;
-  width: 200px;
-  height: 30px;
+	position: absolute;
+	left: 720px;
+	top: 140px;
+	width: 200px;
+	height: 30px;
 }
 
 .fig-5 {
-  position: absolute;
-  right: 760px;
-  bottom: 140px;
-  width: 200px;
-  height: 30px;
+	position: absolute;
+	right: 760px;
+	bottom: 140px;
+	width: 200px;
+	height: 30px;
 }
 
 .fig-6 {
-  position: absolute;
-  right: 550px;
-  bottom: 140px;
-  width: 200px;
-  height: 30px;
+	position: absolute;
+	right: 550px;
+	bottom: 140px;
+	width: 200px;
+	height: 30px;
 }
 
 .fig-7 {
-  position: absolute;
-  right: 290px;
-  bottom: 140px;
-  width: 200px;
-  height: 30px;
+	position: absolute;
+	right: 290px;
+	bottom: 140px;
+	width: 200px;
+	height: 30px;
 }
 
 .fig-8 {
-  position: absolute;
-  right: 40px;
-  bottom: 140px;
-  width: 200px;
-  height: 30px;
+	position: absolute;
+	right: 40px;
+	bottom: 140px;
+	width: 200px;
+	height: 30px;
 }
 .inflation-article span {
-  font-weight: bold;
-  color: #5a5757;
+	font-weight: bold;
+	color: #5a5757;
 }
 
 .inflation-article div hr {
-  margin: 0px;
-  margin-top: 50px;
-  width: 100px;
-  border: 0.5px solid black;
+	margin: 0px;
+	margin-top: 50px;
+	width: 100px;
+	border: 0.5px solid black;
 }
 
 .inflation-article div p {
-  margin: 0px;
-  margin-top: 20px;
+	margin: 0px;
+	margin-top: 20px;
 }
 
 .articles {
@@ -306,29 +306,42 @@ figure {
 	margin-bottom: 0.9375rem;
 	font-family: nyt-imperial, georgia, "times new roman", times, serif;
 	margin-top: 60px;
-  }
-  .article-footer{
-	color: rgb(102,102,102);
+}
+.article-footer {
+	color: rgb(102, 102, 102);
 	font-size: 12px;
 	line-height: 1.4;
+}
 
-  }
+.article-footer a {
+	color: rgb(102, 102, 102);
+}
 
-  .article-footer a{
-	  color:rgb(102,102,102) ;
-  }
+.article-footer-icon {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.article-footer-icon button {
+	background-color: rgb(86, 123, 149);
+	color: white;
+	display: block;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	font-size: 0.8125rem;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	line-height: 1.5rem;
 
-  .article-footer-icon{
-	  display: flex;
-	  justify-content: space-between;
-	  margin-top: 30px;
-	  
-  }
-  .article-footer-icon button{
-	  
-  }
+	text-transform: uppercase;
+	width: 50%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(50, 104, 145);
 
-  .article-footer-icon div{
-	
-  }
+	border-radius: 3px;
+	padding: 5px 0px;
+}
 
+.article-footer-icon a {
+	color: black;
+}
