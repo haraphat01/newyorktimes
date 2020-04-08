@@ -350,41 +350,35 @@ figure {
 
 /* Astronomy Section */
 .thumbnails {
-	/* display: flex; */
-	/* justify-content: space-between; */
-	padding-left: 3%;
-	padding-right: 3%;
+	 display: flex; 
+	justify-content: space-between; 
+  margin-left: 3%;
+  margin-right: 3%;
 	max-width: 1200px;
-	background-color: red;
+
 }
-.thumbnails .astronomy {
-	max-width: 852px;
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 852px;
+  grid-column-gap: 10px;
 }
-.thumbnails div.grid-container {
-	display: grid;
-	grid-template-columns: repeat(3 1fr);
-	gap: 10px;
+
+.grid-item{
+  
+  font-size: 30px;
+  text-align: center;
+
+  
 }
-.grid1 {
-	background-color: brown;
-}
-.grid2 {
-	background-color: yellow;
-}
-.grid3 {
-	background-color: orange;
-}
-.grid4 {
-	background-color: green;
-}
-.grid5 {
-	background-color: red;
-}
-.grid6 {
-	background-color: blue;
+
+.grid-item img {
+  width: 280px;
+  height: 200px;
 }
 .most-popular {
-	margin-left: 900px;
+	margin-left: 30px;
 	max-width: 315px;
 }
 
