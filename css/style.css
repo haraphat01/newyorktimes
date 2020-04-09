@@ -485,3 +485,22 @@ figure {
 }
 
 /*End Astronomy Section */
+
+footer div hr{
+color: #777777;
+line-height: 2px;
+}
+
+
+.footer-logo{
+margin-left: 30px;
+}
+
+.footer-logo p{
+  margin-top: -20px;
+  margin-left: 70rem;
+}
+.footer-logo p a{
+  text-decoration: none;
+}
+
