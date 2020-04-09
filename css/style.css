@@ -12,6 +12,7 @@
 }
 /*End General styles */
 .main-container {
+	position: relative;
 	width: 100%;
 	height: 100%;
 	background-color: rgb(255, 255, 255);
@@ -347,6 +348,46 @@ figure {
 }
 
 /* End Article 2 */
+
+/* Editors Pick */
+
+.editors-pick {
+	position: absolute;
+	max-width: 210px;
+	height: 321px;
+	top: 1700px;
+	right: 90px;
+}
+.editors-pick figcaption a {
+	text-decoration: none;
+	display: block;
+	font-family: nyt-cheltenham-small, georgia, "times new roman";
+
+	font-size: 14px;
+	line-height: 17px;
+	width: 100%;
+	color: rgb(51, 51, 51);
+}
+.editors-pick figcaption a:hover {
+	text-decoration: underline;
+}
+.editors-pick img {
+	width: 75px;
+	height: 75px;
+	margin-right: 10px;
+}
+.editors-pick hr {
+	margin: 15px 0;
+	color: #eeeeee;
+}
+.editors-pick figure {
+	display: flex;
+	margin-bottom: 10px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*End Editors Pick */
 
 /* Astronomy Section */
 .thumbnails {
