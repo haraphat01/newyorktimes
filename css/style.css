@@ -10,6 +10,13 @@
 	height: 0;
 	clear: both;
 }
+.underline {
+	width: 102px;
+	height: 0.5px;
+	color: black;
+	border: 0.2px solid #dddddd;
+	margin-left: 25px;
+}
 /*End General styles */
 .main-container {
 	position: relative;
@@ -21,52 +28,79 @@
 
 /* Navbar */
 
-/* nav {
+nav {
 	display: flex;
-	height: 50px;
+	justify-content: space-between;
+	align-items: center;
+	height: 42px;
 	width: 100%;
 	font-size: small;
-	border: 2px solid yellow;
+	border-bottom: 1px solid #eeeeee;
 	font-family: helvetica, arial, sans-serif;
 	box-sizing: border-box;
-} */
+	margin-bottom: 50px;
+}
+.nav-items-left {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: 10px;
+}
+.nav-items-left button {
+	cursor: pointer;
+}
+.nav-items-left a {
+	color: #000000;
+	text-decoration: none;
+}
+.nav-items-left a:hover {
+	text-decoration: underline;
+}
+.nav-items-right {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-right: 10px;
+	cursor: pointer;
+}
 
 nav button {
-	margin: 0.9em;
+	margin: 0.5em;
 	border: none;
 	background-color: rgb(255, 255, 255);
 	font-weight: bold;
 	font-size: 14.25px;
 }
+.nav-items-left li:nth-child(3) {
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.7px;
+	line-height: 19px;
+}
 
+#subscribe-button,
 #login-button {
-	background-color: rgb(86, 123, 149);
-	color: white;
-	padding: 1%;
-	border-radius: 10%;
-	height: 30px;
-	padding-top: 10px;
-	font-size: 10px;
-	margin-left: 10px;
+	border-radius: 3px;
+	cursor: pointer;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	white-space: nowrap;
+	vertical-align: middle;
+	background-color: #567b95;
+	border: 1px solid #326891;
+	color: #fff;
+	font-size: 11px;
+	line-height: 11px;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	padding: 11px 12px 8px;
 }
 
-#subscribe-button {
-	background-color: rgb(86, 123, 149);
-	color: white;
-	padding: 1%;
-	border-radius: 10%;
-	margin-left: 400px;
-	height: 30px;
-	padding-top: 10px;
-	font-size: 10px;
-}
-
-.logo {
-	margin-left: 300px;
-	margin-top: 5px;
+#logo {
+	text-align: center;
 }
 
 /* End of Navbar */
+
 #hero {
 	width: 960px;
 	margin: 20px auto;
@@ -111,20 +145,14 @@ article {
 }
 
 .author a {
+	font-weight: bold;
 	color: #333;
 	text-decoration: none;
 	cursor: pointer;
 }
-.underline {
-	width: 102px;
-	height: 0.5px;
-	color: black;
-	border: 0.2px solid #dddddd;
-	margin-left: 25px;
+.author a:hover {
+	text-decoration: underline;
 }
-/* article a + div:hover {
-	visibility: hidden;
-} */
 
 .article-info {
 	float: right;
@@ -139,12 +167,6 @@ article {
 	font-size: 0.8125rem;
 	line-height: 1rem;
 	margin-bottom: 0;
-}
-
-.article-icon {
-	border-radius: 50%;
-
-	size: 196rem;
 }
 
 .fa-comment {
@@ -172,9 +194,14 @@ article {
 }
 
 .article-info a:nth-child(-n + 4) {
+	border-radius: 50%;
 	background-color: #eeeeee;
-	border-radius: 200px 200px 200px 200px;
-	padding: 3px;
+	padding: 4px;
+}
+.article-info a:nth-child(5) {
+	border-radius: none;
+	font-size: 28px;
+	vertical-align: middle;
 }
 .article-info a:hover {
 	color: black;
@@ -211,70 +238,89 @@ article {
 	width: 960px;
 	margin: 20px auto;
 }
+.inflation-article h2 {
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+.inflation-article .text-mute {
+	margin-bottom: 10px;
+}
 
 .inflation-img img {
 	width: 940px;
 }
-figure {
+.figure {
 	position: relative;
-	font-family: nyt-franklin, arial, helvetica, sans-serif;
-	font-size: 14px;
-	line-height: 17px;
-	font-weight: 300;
+}
+.inflation-article span {
+	font-size: 11px;
+	font-weight: 800;
+	letter-spacing: 0.05em;
 	color: #000000;
+	margin-right: 10px;
+	font-family: nyt-franklin, arial, helvetica, sans-serif;
+}
+.figure p {
+	font-family: nyt-franklin, arial, helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 17px;
+	color: #333333;
 }
 .fig-1 {
 	position: absolute;
 	left: 3px;
-	top: 140px;
-	width: 200px;
+	top: 120px;
+	width: 220px;
 	height: 30px;
 }
 .fig-2 {
 	position: absolute;
-	left: 220px;
-	top: 140px;
-	width: 200px;
+	left: 240px;
+	top: 120px;
+	width: 220px;
 	height: 30px;
 }
 .fig-3 {
 	position: absolute;
-	left: 470px;
-	top: 140px;
-	width: 200px;
+	left: 480px;
+	top: 120px;
+	width: 220px;
 	height: 30px;
 }
 
 .fig-4 {
 	position: absolute;
 	left: 720px;
-	top: 140px;
-	width: 200px;
+	top: 120px;
+	width: 220px;
 	height: 30px;
 }
 
 .fig-5 {
 	position: absolute;
-	right: 760px;
+	right: 740px;
 	bottom: 140px;
-	width: 200px;
+	width: 220px;
 	height: 30px;
+	top: 400px;
 }
 
 .fig-6 {
 	position: absolute;
-	right: 550px;
+	right: 500px;
 	bottom: 140px;
-	width: 200px;
+	width: 220px;
 	height: 30px;
+	top: 400px;
 }
 
 .fig-7 {
 	position: absolute;
-	right: 290px;
+	right: 260px;
 	bottom: 140px;
-	width: 200px;
+	width: 220px;
 	height: 30px;
+	top: 400px;
 }
 
 .fig-8 {
@@ -283,10 +329,7 @@ figure {
 	bottom: 140px;
 	width: 200px;
 	height: 30px;
-}
-.inflation-article span {
-	font-weight: bold;
-	color: #5a5757;
+	top: 400px;
 }
 
 .inflation-article div hr {
@@ -299,6 +342,11 @@ figure {
 .inflation-article div p {
 	margin: 0px;
 	margin-top: 20px;
+	font-size: 14px;
+	line-height: 1.125rem;
+	font-weight: 500;
+	font-style: normal;
+	font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
 
 .articles {
@@ -573,26 +621,24 @@ footer .horizontal-line-2 {
 	/* transform: rotate(90deg); */
 }
 /* End footer section */
-.position{
-  position: relative;
+.position {
+	position: relative;
 }
 
-.footer-paragraph{
-  text-align: center;
-  margin:auto ;
+.footer-paragraph {
+	text-align: center;
+	margin: auto;
 }
 
-.arrow-up{
-  float: right;
-  margin: 0px;
-
- 
+.arrow-up {
+	float: right;
+	margin: 0px;
 }
 
-.arrow-paragraph{
-   float: right;
-   margin-right: 30px;
-   font-size: 15px;
-   font-weight: bold;
-   font-family: nyt-franklin, helvetica, arial, sans-serif;
-  }
+.arrow-paragraph {
+	float: right;
+	margin-right: 30px;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
