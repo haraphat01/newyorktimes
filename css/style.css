@@ -396,6 +396,7 @@ figure {
 	margin-left: 3%;
 	margin-right: 3%;
 	max-width: 1200px;
+	margin-top: 50px;
 }
 
 .grid-container {
@@ -410,9 +411,17 @@ figure {
 	text-align: center;
 }
 .grid-item a {
-	text-decoration: none;
 	color: black;
 	text-align: left;
+	font-size: 1.125rem;
+	font-weight: bold;
+	line-height: 22px;
+
+	font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+}
+.grid-item a:hover {
+	color: #777777;
+	text-decoration: none;
 }
 .thumbnails figure {
 	margin-bottom: 20px;
@@ -437,6 +446,42 @@ figure {
 	color: #777777;
 	text-align: left;
 	font-size: 11px;
+}
+
+/* Most Popular aside */
+.most-popular {
+	text-align: left;
+}
+.most-popular h2 {
+	margin: 15px 0;
+}
+.most-popular a {
+	display: block;
+	margin: 15px 0;
+	text-decoration: none;
+	color: rgb(18, 18, 18);
+	font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+	font-size: 1.1875rem;
+	line-height: 1.4375rem;
+}
+.most-popular a:hover {
+	color: #777777;
+}
+
+.astronomy h2 {
+	margin: 15px 0;
+	font-weight: bold;
+}
+.astronomy a {
+	display: block;
+	margin: 15px 0;
+	text-decoration: none;
+	color: rgb(18, 18, 18);
+
+	font-size: 100%;
+}
+.astronomy a:hover {
+	text-decoration: underline;
 }
 
 /*End Astronomy Section */
