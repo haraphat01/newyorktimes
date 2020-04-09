@@ -573,3 +573,26 @@ footer .horizontal-line-2 {
 	/* transform: rotate(90deg); */
 }
 /* End footer section */
+.position{
+  position: relative;
+}
+
+.footer-paragraph{
+  text-align: center;
+  margin:auto ;
+}
+
+.arrow-up{
+  float: right;
+  margin: 0px;
+
+ 
+}
+
+.arrow-paragraph{
+   float: right;
+   margin-right: 30px;
+   font-size: 15px;
+   font-weight: bold;
+   font-family: nyt-franklin, helvetica, arial, sans-serif;
+  }
