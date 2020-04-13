@@ -28,7 +28,7 @@
 
 /* Navbar */
 
-nav {
+.navbar-top {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -143,6 +143,9 @@ article {
 
 	/* margin-left: 23rem; */
 }
+article p {
+	margin-bottom: 20px;
+}
 
 .author a {
 	font-weight: bold;
@@ -249,6 +252,7 @@ article {
 .inflation-img img {
 	width: 940px;
 }
+
 .figure {
 	position: relative;
 }
@@ -343,7 +347,7 @@ article {
 	margin: 0px;
 	margin-top: 20px;
 	font-size: 14px;
-	line-height: 1.125rem;
+	/* line-height: 1.125rem; */
 	font-weight: 500;
 	font-style: normal;
 	font-family: nyt-franklin, arial, helvetica, sans-serif;
@@ -525,7 +529,7 @@ article {
 	margin: 15px 0;
 	text-decoration: none;
 	color: rgb(18, 18, 18);
-	font-size: 100%;
+	font-size: 14px;
 }
 .astronomy a:hover {
 	text-decoration: underline;
@@ -539,6 +543,8 @@ footer {
 	margin: 20px 3%;
 }
 footer div hr {
+	display: block;
+	margin: 1px;
 	color: #777777;
 	line-height: 2px;
 }
@@ -551,8 +557,6 @@ footer div hr {
 	display: flex;
 	justify-content: space-between;
 	flex-flow: row nowrap;
-
-	/* align-items: center; */
 }
 .footer-nav-upper a {
 	color: #222222;
@@ -614,11 +618,36 @@ footer .horizontal-line-2 {
 	/* position: absolute; */
 	left: 10px;
 }
+.footer-subscription li:nth-child(-n + 5) {
+	color: #000000;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	text-transform: capitalize;
+	font-size: 16px;
+	line-height: 15px;
+	padding-bottom: 0px;
+	text-decoration: none;
+}
+.footer-subscription .footer-subscr-link {
+	color: #000000;
+	font-weight: 700;
+}
+.footer-subscription .footer-subscr-link-2 {
+	color: rgb(0, 0, 0);
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	text-transform: capitalize;
+	font-size: 11px;
+	font-weight: 500;
+	line-height: 21px;
+	text-decoration: none;
+}
+.footer-subscription .footer-subscr-link-2:hover {
+	text-decoration: underline;
+	font-size: 11px;
+}
 
 .footer-nav-upper .list-line {
 	border-left: 1px solid #dddddd;
 	padding-left: 10px;
-	/* transform: rotate(90deg); */
 }
 /* End footer section */
 .position {
@@ -628,6 +657,8 @@ footer .horizontal-line-2 {
 .footer-paragraph {
 	text-align: center;
 	margin: auto;
+	font-size: 18px;
+	color: #333;
 }
 
 .arrow-up {
