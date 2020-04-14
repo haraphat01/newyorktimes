@@ -204,6 +204,10 @@ nav button {
   margin: 0 100px 12px 150px;
 }
 
+figure img {
+  width: 100%;
+}
+
 .inflation-img img {
   width: 940px;
 }
@@ -376,11 +380,8 @@ article {
 
 .figure {
   position: relative;
+}
 
-}
-figure img{
-  width: 100%;
-}
 .fig-1 {
   position: absolute;
   left: 3px;
@@ -638,7 +639,6 @@ footer .horizontal-line-1 {
 
 footer .horizontal-line-2 {
   border: 1px solid #ddd;
-
   left: 10px;
 }
 
